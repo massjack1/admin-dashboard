@@ -16,7 +16,7 @@ const initialValues = {
 const phoneRegExp =
 /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/; 
 
-const userSchema = yup.object().shape({
+const checkoutSchema = yup.object().shape({
     firstName: yup.string().required("required"),
     lastName: yup.string().required("required"),
     email: yup.string().email("invalid email").required("required"),
@@ -40,7 +40,7 @@ const Form = () => {
         <Formik
         onSubmit={handleFormSubmit}
         initialValues={initialValues}
-        validationSchema={userSchema}
+        validationSchema={checkoutSchema}
         >
         {({ values, errors, touched, handleBlur, handleChange, handleSubmit }) => (
             <form onSubmit={handleSubmit}>
@@ -109,7 +109,7 @@ const Form = () => {
                     onBlur={handleBlur}
                     onChange={handleChange}
                     value={values.address1}
-                    name="firstName"
+                    name="address1"
                     error={!!touched.address1 && !!errors.address1}
                     helperText={touched.address1 && errors.address1}
                     sx={{ gridColumn: "span 4" }}
@@ -127,6 +127,11 @@ const Form = () => {
                     helperText={touched.address2 && errors.address2}
                     sx={{ gridColumn: "span 4" }}
                     />
+                </Box>
+                <Box display="flex" justifyContent="end" mt="20px">
+                    <Button type="submit" color="secondary" variant="contained">
+                        Create New User
+                    </Button>
                 </Box>
             </form>
         )} 
