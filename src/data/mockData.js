@@ -3,16 +3,16 @@ import { tokens } from "../theme";
 export const mockDataTeam = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
+    name: "Dave Chapelle",
+    email: "davechapelle@gmail.com",
     age: 35,
     phone: "(665)121-5454",
     access: "admin",
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Kevin Hart",
+    email: "kevinhart@gmail.com",
     age: 42,
     phone: "(421)314-2288",
     access: "manager",
@@ -27,8 +27,8 @@ export const mockDataTeam = [
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
+    name: "Arya Stark",
+    email: "aryastark@gmail.com",
     age: 16,
     phone: "(921)425-6742",
     access: "admin",
@@ -78,8 +78,8 @@ export const mockDataTeam = [
 export const mockDataContacts = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
+    name: "Dave Chapelle",
+    email: "davechapelle@gmail.com",
     age: 35,
     phone: "(665)121-5454",
     address: "0912 Won Street, Alabama, SY 10001",
@@ -89,8 +89,8 @@ export const mockDataContacts = [
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Kevin Hart",
+    email: "kevinhart@gmail.com",
     age: 42,
     phone: "(421)314-2288",
     address: "1234 Main Street, New York, NY 10001",
@@ -111,8 +111,8 @@ export const mockDataContacts = [
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
+    name: "Arya Stark",
+    email: "aryastark@gmail.com",
     age: 16,
     phone: "(921)425-6742",
     address: "1514 Main Street, New York, NY 22298",
@@ -202,16 +202,16 @@ export const mockDataContacts = [
 export const mockDataInvoices = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
+    name: "Dave Chapelle",
+    email: "davechapelle@gmail.com",
     cost: "21.24",
     phone: "(665)121-5454",
     date: "03/12/2022",
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Kevin Hart",
+    email: "kevinhart@gmail.com",
     cost: "1.24",
     phone: "(421)314-2288",
     date: "06/15/2021",
@@ -226,8 +226,8 @@ export const mockDataInvoices = [
   },
   {
     id: 4,
-    name: "Anya Stark",
-    email: "anyastark@gmail.com",
+    name: "Arya Stark",
+    email: "aryastark@gmail.com",
     cost: "80.55",
     phone: "(921)425-6742",
     date: "03/21/2022",
